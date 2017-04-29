@@ -15,6 +15,7 @@
 		D12683691EB43B670040C9A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12683671EB43B670040C9A4 /* LaunchScreen.storyboard */; };
 		D12683741EB43B670040C9A4 /* ExpandCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D12683731EB43B670040C9A4 /* ExpandCellTests.m */; };
 		D126837F1EB43B670040C9A4 /* ExpandCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D126837E1EB43B670040C9A4 /* ExpandCellUITests.m */; };
+		D126838D1EB440630040C9A4 /* ExpandList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D126838C1EB440630040C9A4 /* ExpandList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D126837A1EB43B670040C9A4 /* ExpandCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D126837E1EB43B670040C9A4 /* ExpandCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandCellUITests.m; sourceTree = "<group>"; };
 		D12683801EB43B670040C9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D126838C1EB440630040C9A4 /* ExpandList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExpandList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D12683581EB43B670040C9A4 /* ExpandCell */ = {
 			isa = PBXGroup;
 			children = (
+				D126838C1EB440630040C9A4 /* ExpandList.plist */,
 				D126835C1EB43B670040C9A4 /* AppDelegate.h */,
 				D126835D1EB43B670040C9A4 /* AppDelegate.m */,
 				D126835F1EB43B670040C9A4 /* ViewController.h */,
@@ -251,6 +254,7 @@
 			files = (
 				D12683691EB43B670040C9A4 /* LaunchScreen.storyboard in Resources */,
 				D12683661EB43B670040C9A4 /* Assets.xcassets in Resources */,
+				D126838D1EB440630040C9A4 /* ExpandList.plist in Resources */,
 				D12683641EB43B670040C9A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
