@@ -18,6 +18,8 @@
 		D126838D1EB440630040C9A4 /* ExpandList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D126838C1EB440630040C9A4 /* ExpandList.plist */; };
 		D12683901EB448A50040C9A4 /* EPCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D126838F1EB448A50040C9A4 /* EPCellModel.m */; };
 		D12683931EB4490F0040C9A4 /* EPSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D12683921EB4490F0040C9A4 /* EPSectionModel.m */; };
+		D12683971EB6FEBE0040C9A4 /* EPMoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D12683961EB6FEBE0040C9A4 /* EPMoreTableViewCell.m */; };
+		D126839A1EB6FF5C0040C9A4 /* EPTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D12683991EB6FF5C0040C9A4 /* EPTableViewHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		D126838F1EB448A50040C9A4 /* EPCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCellModel.m; sourceTree = "<group>"; };
 		D12683911EB4490F0040C9A4 /* EPSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSectionModel.h; sourceTree = "<group>"; };
 		D12683921EB4490F0040C9A4 /* EPSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSectionModel.m; sourceTree = "<group>"; };
+		D12683951EB6FEBE0040C9A4 /* EPMoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMoreTableViewCell.h; sourceTree = "<group>"; };
+		D12683961EB6FEBE0040C9A4 /* EPMoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMoreTableViewCell.m; sourceTree = "<group>"; };
+		D12683981EB6FF5C0040C9A4 /* EPTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTableViewHeader.h; sourceTree = "<group>"; };
+		D12683991EB6FF5C0040C9A4 /* EPTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTableViewHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		D12683581EB43B670040C9A4 /* ExpandCell */ = {
 			isa = PBXGroup;
 			children = (
+				D12683941EB6FE8B0040C9A4 /* View */,
 				D126838C1EB440630040C9A4 /* ExpandList.plist */,
 				D126835C1EB43B670040C9A4 /* AppDelegate.h */,
 				D126835D1EB43B670040C9A4 /* AppDelegate.m */,
@@ -151,6 +158,17 @@
 				D12683801EB43B670040C9A4 /* Info.plist */,
 			);
 			path = ExpandCellUITests;
+			sourceTree = "<group>";
+		};
+		D12683941EB6FE8B0040C9A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D12683951EB6FEBE0040C9A4 /* EPMoreTableViewCell.h */,
+				D12683961EB6FEBE0040C9A4 /* EPMoreTableViewCell.m */,
+				D12683981EB6FF5C0040C9A4 /* EPTableViewHeader.h */,
+				D12683991EB6FF5C0040C9A4 /* EPTableViewHeader.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +311,9 @@
 				D12683611EB43B670040C9A4 /* ViewController.m in Sources */,
 				D126835E1EB43B670040C9A4 /* AppDelegate.m in Sources */,
 				D12683931EB4490F0040C9A4 /* EPSectionModel.m in Sources */,
+				D12683971EB6FEBE0040C9A4 /* EPMoreTableViewCell.m in Sources */,
 				D12683901EB448A50040C9A4 /* EPCellModel.m in Sources */,
+				D126839A1EB6FF5C0040C9A4 /* EPTableViewHeader.m in Sources */,
 				D126835B1EB43B670040C9A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

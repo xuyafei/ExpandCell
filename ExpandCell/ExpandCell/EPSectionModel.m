@@ -7,6 +7,7 @@
 //
 
 #import "EPSectionModel.h"
+#import "EPCellModel.h"
 
 @implementation EPSectionModel
 
@@ -22,7 +23,24 @@
     NSInteger keyCount = keyVal.count;
     
     for (NSInteger i = 0; i < keyCount; i++) {
+        EPSectionModel *sectionModel = [[EPSectionModel alloc] init];
+        sectionModel.isExpanded = NO;
+        sectionModel.sectionTitle = keyVal[i];
         
+        NSMutableArray *cellArr = [[NSMutableArray alloc] init];
+        
+        NSUInteger valuCount = ((NSArray *)valVal[i]).count;
+        
+        for(NSInteger j = 0; j < valuCount; j++) {
+            EPCellModel *cellModel = [[EPCellModel alloc] init];
+            cellModel.title = valVal[i][j];
+            [cellArr addObject:cellModel];
+        }
+        
+        sectionModel.cellModels = cellArr;
+        [dataArr addObject:sectionModel];
     }
+    
+    finished(dataArr);
 }
 @end

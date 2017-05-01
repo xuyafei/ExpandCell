@@ -11,7 +11,7 @@
 
 @interface AppDelegate ()
 
-@property (nonatomic, strong) ViewController *ExpandViewController;
+@property (nonatomic, strong) ViewController *expandViewController;
 
 @end
 
@@ -21,8 +21,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    _ExpandViewController = [[ViewController alloc] init];
-    self.window.rootViewController = _ExpandViewController;
+    _expandViewController = [[ViewController alloc] init];
+    UINavigationController *rootNavigationController = [[UINavigationController alloc] initWithRootViewController:_expandViewController];
+    self.window.rootViewController = rootNavigationController;
     
     [self.window makeKeyAndVisible];
     return YES;
