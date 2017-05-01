@@ -30,7 +30,6 @@
     self.expandTableView.backgroundColor = [UIColor whiteColor];
     self.expandTableView.delegate = self;
     self.expandTableView.dataSource = self;
-    //self.expandTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
     [EPSectionModel loadData:^(NSArray *models) {
         self.dataSource = models;
