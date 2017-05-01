@@ -16,6 +16,8 @@
 		D12683741EB43B670040C9A4 /* ExpandCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D12683731EB43B670040C9A4 /* ExpandCellTests.m */; };
 		D126837F1EB43B670040C9A4 /* ExpandCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D126837E1EB43B670040C9A4 /* ExpandCellUITests.m */; };
 		D126838D1EB440630040C9A4 /* ExpandList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D126838C1EB440630040C9A4 /* ExpandList.plist */; };
+		D12683901EB448A50040C9A4 /* EPCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D126838F1EB448A50040C9A4 /* EPCellModel.m */; };
+		D12683931EB4490F0040C9A4 /* EPSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D12683921EB4490F0040C9A4 /* EPSectionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D126837E1EB43B670040C9A4 /* ExpandCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandCellUITests.m; sourceTree = "<group>"; };
 		D12683801EB43B670040C9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D126838C1EB440630040C9A4 /* ExpandList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExpandList.plist; sourceTree = "<group>"; };
+		D126838E1EB448A50040C9A4 /* EPCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCellModel.h; sourceTree = "<group>"; };
+		D126838F1EB448A50040C9A4 /* EPCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCellModel.m; sourceTree = "<group>"; };
+		D12683911EB4490F0040C9A4 /* EPSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSectionModel.h; sourceTree = "<group>"; };
+		D12683921EB4490F0040C9A4 /* EPSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSectionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,10 @@
 				D12683671EB43B670040C9A4 /* LaunchScreen.storyboard */,
 				D126836A1EB43B670040C9A4 /* Info.plist */,
 				D12683591EB43B670040C9A4 /* Supporting Files */,
+				D126838E1EB448A50040C9A4 /* EPCellModel.h */,
+				D126838F1EB448A50040C9A4 /* EPCellModel.m */,
+				D12683911EB4490F0040C9A4 /* EPSectionModel.h */,
+				D12683921EB4490F0040C9A4 /* EPSectionModel.m */,
 			);
 			path = ExpandCell;
 			sourceTree = "<group>";
@@ -282,6 +292,8 @@
 			files = (
 				D12683611EB43B670040C9A4 /* ViewController.m in Sources */,
 				D126835E1EB43B670040C9A4 /* AppDelegate.m in Sources */,
+				D12683931EB4490F0040C9A4 /* EPSectionModel.m in Sources */,
+				D12683901EB448A50040C9A4 /* EPCellModel.m in Sources */,
 				D126835B1EB43B670040C9A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
